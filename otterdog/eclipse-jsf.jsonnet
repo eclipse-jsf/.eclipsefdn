@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-jsf') {
+orgs.newOrg('webtools.jsf', 'eclipse-jsf') {
   settings+: {
     description: "",
     name: "Eclipse Webtools JSF project",
